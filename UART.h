@@ -14,7 +14,7 @@ void UART_init()
 
 //	UBRR0H = 0;
 //	UBRR0L = 6;										// Baud rate = 9600
-//	UCSR0B = (1<<RXCIE0)|(1<<RXEN0)|(1<<TXEN0);		// Recebe, transmite e ativou a interrup��o
+//	UCSR0B = (1<<RXCIE0)|(1<<RXEN0)|(1<<TXEN0);		// Recebe, transmite e ativou a interrupçao
 //	UCSR0C = (1<<UCSZ01)|(1<<UCSZ00);				// Formata as framas com 8 bits de dados e 1 bit de stop
 	
 }
